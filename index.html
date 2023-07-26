@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Music Player</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./img/logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Bollywood Songs</h1>
+            <div class="songItem-container">
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">03:42 <i id="0"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/11.png" alt="">
+                    <span class="songName">Tum Hi Ho</span>
+                    <span class="songlistPlay"><span class="timestamp">05:08 <i id="1"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/2.jpg" alt="">
+                    <span class="songName">Trap</span>
+                    <span class="songlistPlay"><span class="timestamp">03:33 <i id="2"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/10.jpg" alt="">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">03:33 <i id="3"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/10.jpg" alt="">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">03:17 <i id="4"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/10.jpg" alt="">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">04:21 <i id="5"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/10.jpg" alt="">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">03:42 <i id="6"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/10.jpg" alt="">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">02:52 <i id="7"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/10.jpg" alt="">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">04:22 <i id="8"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/10.jpg" alt="">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">05:01 <i id="9"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-3x fa-backward-step"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="plyBtn"></i>
+            <i id="after" class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="./img/playing.gif" alt="" id="gif">
+            <span class="songName last">Shayad</span>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/71b375415a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
